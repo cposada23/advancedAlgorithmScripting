@@ -23,7 +23,7 @@ function sym(args) {
         });
         return c;
     };
-    return (arr.reduce(symDiff,[]));
+    return (arr.reduce(symDiff,[])); //Reduce toma una funcion como parametro y un valor inicial
 }
 console.log(sym([3, 3, 3, 2, 5]));
 console.log(sym([1, 2, 3, 3], [5, 2, 1, 4]));
